@@ -16,7 +16,7 @@ class Home_Screen extends StatefulWidget {
 class Home_ScreenState extends State<Home_Screen> {
   final ScrollController scroll_controller = ScrollController();
   bool is_expand = true;
-  bool header_should_blur = false;
+  bool header_should_blur = true;
   static const IconData ellipsis_v =
       IconData(0xf142, fontFamily: 'MyFlutterApp', fontPackage: null);
 

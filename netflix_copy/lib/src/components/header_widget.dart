@@ -65,6 +65,13 @@ class header_widget extends StatelessWidget {
                   ),
                 ],
                 const Spacer(),
+                /*
+                style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all(Colors.transparent),
+                overlayColor: MaterialStateProperty.all(Colors.transparent),
+                shadowColor: MaterialStateProperty.all(Colors.transparent),
+              ),
+                 */
                 SizedBox(
                   width: 40,
                   height: 40,
