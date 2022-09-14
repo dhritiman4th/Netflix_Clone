@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_copy/src/features/downloads_screen.dart';
-import 'package:netflix_copy/src/features/fast_laughs_screen.dart';
-import 'package:netflix_copy/src/features/home_screen.dart';
-import 'package:netflix_copy/src/features/new_and_hot_screen.dart';
+import 'package:netflix_copy/src/features/downloads/downloads_screen.dart';
+import 'package:netflix_copy/src/features/fat_laughs/fast_laughs_screen.dart';
+import 'package:netflix_copy/src/features/home/home_screen.dart';
+import 'package:netflix_copy/src/features/new_and_hot/new_and_hot_screen.dart';
 
 void main() {
   runApp(const MyApp());

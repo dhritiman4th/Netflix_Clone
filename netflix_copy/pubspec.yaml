@@ -63,6 +63,10 @@ flutter:
     - assets/images/cast.png
     - assets/images/search.png
     - assets/images/user_icon.png
+    - assets/images/devil-in-ohio-poster.jpeg
+    - assets/images/top-gun-poster.jpg
+    - assets/images/kebab_menu.png
+    - assets/images/play_button.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -76,15 +80,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: BEBASNEUE
+    - family: MyFlutterApp
       fonts:
-        - asset: fonts/BEBASNEUE-BOLD.OTF
-          weight: 700
-        - asset: fonts/BEBASNEUE-BOOK.OTF
-        - asset: fonts/BEBASNEUE-LIGHT.OTF
-        - asset: fonts/BEBASNEUE-REGULAR.OTF
-        - asset: fonts/BEBASNEUE-REGULAR.TTF
-        - asset: fonts/BEBASNEUE-THIN.OTF
+       - asset: fonts/MyFlutterApp.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
