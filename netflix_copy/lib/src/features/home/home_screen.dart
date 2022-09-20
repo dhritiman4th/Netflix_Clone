@@ -1,12 +1,12 @@
 import "package:flutter/material.dart";
 import 'package:flutter/rendering.dart';
-import 'package:netflix_copy/src/components/header_widget.dart';
-import 'package:netflix_copy/src/features/home/control_widget.dart';
-import 'package:netflix_copy/src/features/home/highlighted_movie_widget.dart';
-import 'package:netflix_copy/src/features/home/home_header.dart';
+import 'package:netflix_clone/src/components/header_widget.dart';
+import 'package:netflix_clone/src/features/home/control_widget.dart';
+import 'package:netflix_clone/src/features/home/highlighted_movie_widget.dart';
+import 'package:netflix_clone/src/features/home/home_header.dart';
 import 'package:flutter/widgets.dart';
-import 'package:netflix_copy/src/features/home/movie_list_with_controls.dart';
-import 'package:netflix_copy/src/features/home/movie_list_without_constrols.dart';
+import 'package:netflix_clone/src/features/home/movie_list_with_controls.dart';
+import 'package:netflix_clone/src/features/home/movie_list_without_constrols.dart';
 
 class Home_Screen extends StatefulWidget {
   @override

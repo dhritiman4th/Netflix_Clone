@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:netflix_copy/src/features/downloads/downloads_screen.dart';
-import 'package:netflix_copy/src/features/fat_laughs/fast_laughs_screen.dart';
-import 'package:netflix_copy/src/features/home/home_screen.dart';
-import 'package:netflix_copy/src/features/new_and_hot/new_and_hot_screen.dart';
+import 'package:netflix_clone/src/features/downloads/downloads_screen.dart';
+import 'package:netflix_clone/src/features/fat_laughs/fast_laughs_screen.dart';
+import 'package:netflix_clone/src/features/home/home_screen.dart';
+import 'package:netflix_clone/src/features/new_and_hot/new_and_hot_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -51,8 +51,8 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
       case 1:
         return NewAndHot_Screen();
       case 2:
-        return FastLaughs_Screen();
-      case 3:
+        //   return FastLaughs_Screen();
+        // case 3:
         return Downloads_Screen();
       default:
         return Container();
@@ -81,10 +81,10 @@ class BottomNavigationWidgetState extends State<BottomNavigationWidget> {
             icon: Icon(Icons.video_library_outlined),
             label: "New & Hot",
           ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.tag_faces),
-            label: "Fast Laughs",
-          ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(Icons.tag_faces),
+          //   label: "Fast Laughs",
+          // ),
           BottomNavigationBarItem(
             icon: Icon(Icons.download_for_offline_outlined),
             label: "Downloads",

@@ -1,4 +1,4 @@
-name: netflix_copy
+name: netflix_clone
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -67,6 +67,9 @@ flutter:
     - assets/images/top-gun-poster.jpg
     - assets/images/kebab_menu.png
     - assets/images/play_button.png
+    - assets/images/popcorn.png
+    - assets/images/fire.png
+    - assets/images/top_10.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

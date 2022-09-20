@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
-import 'package:netflix_copy/src/components/header_widget.dart';
-import 'package:netflix_copy/src/features/downloads/movie_catalog_widget.dart';
+import 'package:netflix_clone/src/components/header_widget.dart';
+import 'package:netflix_clone/src/features/downloads/movie_catalog_widget.dart';
 
 class Downloads_Screen extends StatefulWidget {
   @override
