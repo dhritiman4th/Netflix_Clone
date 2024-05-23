@@ -301,14 +301,12 @@ class NewAndHot_ScreenState extends State<NewAndHot_Screen> {
           return GetWidgetOffset(
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  onPrimary: Colors.transparent,
-                  onSurface: Colors.transparent,
+                  foregroundColor: Colors.transparent, backgroundColor: is_selected ? Colors.white : Colors.transparent, disabledForegroundColor: Colors.transparent.withOpacity(0.38), disabledBackgroundColor: Colors.transparent.withOpacity(0.12),
                   shadowColor: Colors.transparent,
                   surfaceTintColor: Colors.transparent,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30.0),
                   ),
-                  primary: is_selected ? Colors.white : Colors.transparent,
                 ),
                 onPressed: () => menu_clicked(index),
                 child: Row(

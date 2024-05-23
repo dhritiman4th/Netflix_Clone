@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/src/features/downloads/downloads_screen.dart';
-import 'package:netflix_clone/src/features/fat_laughs/fast_laughs_screen.dart';
 import 'package:netflix_clone/src/features/home/home_screen.dart';
 import 'package:netflix_clone/src/features/new_and_hot/new_and_hot_screen.dart';
 
